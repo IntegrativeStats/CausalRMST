@@ -7,7 +7,7 @@ library(devtools)
 #setwd("/Users/HuaKimi/Library/CloudStorage/Box-Box/ICSA2024 short course/Lab Session")
 #source("source_CW_RMST.R")
 install_github("https://github.com/IntegrativeStats/CausalRMST")
-
+library(CausalRMST)
 
 gen.dat <- function(n,beta,lambda,gamma){
   A <- rbinom(n, 1, 0.5)
@@ -69,7 +69,7 @@ p_cw <- EW.p.M(df,varX,gf,M)
 
 
 
-# CW-adjusted estimators of RMSTs
+# CW-adjusted estimators of RMSTs and RMST difference
 W.adj.RMST <- function(df_sample, p_cw, varX, gf, tau){
   adj_RMST <- adj_RMST_se <- adj_RMST_ci1 <- adj_RMST_ci2 <- matrix(NA, 5, 3)
   rownames(adj_RMST) <- rownames(adj_RMST_se) <-
