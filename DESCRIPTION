@@ -1,11 +1,11 @@
 Package: CausalRMST
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Weighted Adjusted RMST Estimators
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Kaiyuan Hua, PhD
+Maintainer: kimihua1995@gmail.com
+Description: An R pacakge for estimating calibration weights and weighted adjusted 
+    RMSTs in the causal survival analysis.
+License: NA
 Encoding: UTF-8
 LazyData: true
