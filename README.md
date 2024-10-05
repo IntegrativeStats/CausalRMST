@@ -1,4 +1,4 @@
-<h5>Development Level: <span style="color:red">Research</span></h5>
+<h5>Development Stage: <span style="color:red">Research</span></h5>
 
 <h2>Estimating Weighted-Adjusted RMSTs in Causal Survival Analysis</h2>
 
