@@ -1,3 +1,5 @@
+<h5>Development Level: <span style="color:red">Research</span></h5>
+
 <h2>Estimating Weighted-Adjusted RMSTs in Causal Survival Analysis</h2>
 
 1) Calculate the calibration weights `EW.p.M(df, varX, gf, M)`
